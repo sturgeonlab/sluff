@@ -630,5 +630,7 @@ compute_partitions <- function(g,
                                                    mode = 'undirected')
 
   list(cluster_g = cluster_g, num_links = num_links, cluster_mat = cluster_mat)
+  
+ return (cluster_mat) 
 }
 
