@@ -218,7 +218,7 @@ find_gene_modules <- function(cds,
                                    supermodule = partitions)
   gene_module_df <- tibble::as_tibble(cbind(gene_module_df, umap_res))
 
-  return(cluster_graph_res)
+  return(cluster_result)
 }
 
 
